@@ -1,8 +1,5 @@
 # Grupa6-CryptoInvest
 
- 
-
-## Tema: KriptoValute
 
  
 
