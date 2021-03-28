@@ -35,4 +35,5 @@
  
  ## Akteri 
  - Korisnik 
+ - Free korisnik
  - Premium korisnik
