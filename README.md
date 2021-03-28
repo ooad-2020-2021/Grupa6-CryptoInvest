@@ -1,3 +1,4 @@
+![Logo](https://user-images.githubusercontent.com/73108515/112739416-8bd67c80-8f74-11eb-8c51-1f5b1b16baed.png)
 # Grupa6-CryptoInvest
 
 
@@ -5,7 +6,7 @@
 
 ## Logo 
 
-<img width="250" alt="kriptovalute logo" src="https://user-images.githubusercontent.com/73299629/111974785-1f84f480-8b00-11eb-81a5-a60f70db724c.png">
+<img width="250" alt="kriptovalute logo" src="https://user-images.githubusercontent.com/73108515/112739416-8bd67c80-8f74-11eb-8c51-1f5b1b16baed.png">
 
 ## Članovi tima 
 
