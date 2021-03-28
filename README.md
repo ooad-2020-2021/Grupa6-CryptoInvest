@@ -27,10 +27,11 @@
  * mogućnost povlačenja profita 
  * uvid u realno stanje kripto tržišta kao i trendove rasta
  * prikaz digitalnog novčanika  
+ * prikaz portfolia korisnika
+ * mogucnost dizanja kredita
  * mogućnost kupovine i prodaje kriptovaluta
- * mogućnost prikaza tabele gdje korisnik može vidjeti svoj uspjeh u odnosu na druge korisnike
- * mogućnost komunikacije sa drugim korisnicima
- * mogućnost pristupa lekcijama 
+ * mogućnost uvida u rangiranje gdje korisnik može vidjeti svoj uspjeh u odnosu na druge korisnike
+ * mogućnost pristupa lekcijama i testiranje znanja 
  * mogućnost da korisnik postane Premium korisnik, gdje će morati plaćati članarinu te će tu učiti o investicijama
 
  
