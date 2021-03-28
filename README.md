@@ -1,4 +1,4 @@
-![Logo](https://user-images.githubusercontent.com/73108515/112739416-8bd67c80-8f74-11eb-8c51-1f5b1b16baed.png)
+<!--![Logo](https://user-images.githubusercontent.com/73108515/112739416-8bd67c80-8f74-11eb-8c51-1f5b1b16baed.png)-->
 # Grupa6-CryptoInvest
 
 
