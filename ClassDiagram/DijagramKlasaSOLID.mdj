@@ -1935,7 +1935,7 @@
 											"font": "Arial;13;3",
 											"left": 525,
 											"top": 567,
-											"width": 308.17236328125,
+											"width": 335,
 											"height": 13,
 											"text": "Transakcija"
 										},
@@ -1970,7 +1970,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 560,
-									"width": 318.17236328125,
+									"width": 345,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4x81QC2O5hXM="
@@ -2007,7 +2007,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 590,
-											"width": 308.17236328125,
+											"width": 335,
 											"height": 13,
 											"text": "-transID {id}",
 											"horizontalAlignment": 0
@@ -2024,7 +2024,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 605,
-											"width": 308.17236328125,
+											"width": 335,
 											"height": 13,
 											"text": "-datum: Date {readOnly}",
 											"horizontalAlignment": 0
@@ -2041,7 +2041,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 620,
-											"width": 308.17236328125,
+											"width": 335,
 											"height": 13,
 											"text": "-kolicinaValute: Double {readOnly}",
 											"horizontalAlignment": 0
@@ -2058,17 +2058,34 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 635,
-											"width": 308.17236328125,
+											"width": 335,
 											"height": 13,
 											"text": "-cijena: Double {readOnly}",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF5NgiN+Q9RU7I=",
+											"_parent": {
+												"$ref": "AAAAAAF4x81QC2O942o="
+											},
+											"model": {
+												"$ref": "AAAAAAF5NgiN7Q9O5rA="
+											},
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 650,
+											"width": 335,
+											"height": 13,
+											"text": "-valuta: Valuta",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 585,
-									"width": 318.17236328125,
-									"height": 68
+									"width": 345,
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -2091,11 +2108,12 @@
 											},
 											"font": "Arial;13;0",
 											"left": 525,
-											"top": 658,
-											"width": 308.17236328125,
-											"height": 13,
-											"text": "+Transakcija(kolicinaValute: Double, cijena: Double)",
-											"horizontalAlignment": 0
+											"top": 673,
+											"width": 335,
+											"height": 39,
+											"text": "+<<create>> Transakcija(novcanik : Novcanik, valuta: Valuta, datum: Date, kolicinaValute : Double, cijena : Double))(kolicinaValute: Double, cijena: Double)",
+											"horizontalAlignment": 0,
+											"wordWrap": true
 										},
 										{
 											"_type": "UMLOperationView",
@@ -2216,8 +2234,8 @@
 											},
 											"font": "Arial;13;2",
 											"left": 525,
-											"top": 673,
-											"width": 308.17236328125,
+											"top": 714,
+											"width": 335,
 											"height": 13,
 											"text": "+izvrsiTransakciju()",
 											"horizontalAlignment": 0
@@ -2225,9 +2243,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 520,
-									"top": 653,
-									"width": 318.17236328125,
-									"height": 38
+									"top": 668,
+									"width": 345,
+									"height": 64
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2266,7 +2284,7 @@
 							"containerChangeable": true,
 							"left": 520,
 							"top": 560,
-							"width": 318.17236328125,
+							"width": 345,
 							"height": 191,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4x81QC2O4lB8="
@@ -7220,6 +7238,7 @@
 							},
 							"name": "brojNovcanika",
 							"visibility": "private",
+							"type": "",
 							"isReadOnly": true
 						}
 					],
@@ -7928,6 +7947,7 @@
 							},
 							"name": "transID",
 							"visibility": "private",
+							"type": "",
 							"isID": true
 						},
 						{
@@ -7962,6 +7982,18 @@
 							"visibility": "private",
 							"type": "Double",
 							"isReadOnly": true
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF5NgiN7Q9O5rA=",
+							"_parent": {
+								"$ref": "AAAAAAF4x81QC2O1+uU="
+							},
+							"name": "valuta",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAF4x7Fl/l1ZvG8="
+							}
 						}
 					],
 					"operations": [
@@ -7971,7 +8003,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF4x81QC2O1+uU="
 							},
-							"name": "Transakcija",
+							"name": "<<create>> Transakcija(novcanik : Novcanik, valuta: Valuta, datum: Date, kolicinaValute : Double, cijena : Double))",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -8734,7 +8766,8 @@
 								"$ref": "AAAAAAF4yLYnMGT3zBo="
 							},
 							"name": "username",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -9554,7 +9587,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5M8/AjHccQMg="
 							},
-							"name": "Kupovina"
+							"name": "Kupovina",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9562,7 +9596,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF5M8/AjHccQMg="
 							},
-							"name": "Prodaja"
+							"name": "Prodaja",
+							"type": ""
 						}
 					]
 				},
