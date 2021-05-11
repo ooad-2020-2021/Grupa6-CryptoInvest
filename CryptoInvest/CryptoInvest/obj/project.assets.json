@@ -734,19 +734,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amila Rovcanin\\source\\repos\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
       "projectName": "CryptoInvest",
-      "projectPath": "C:\\Users\\Amila Rovcanin\\source\\repos\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
-      "packagesPath": "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amila Rovcanin\\source\\repos\\CryptoInvest\\CryptoInvest\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Amila Rovcanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -796,7 +796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
