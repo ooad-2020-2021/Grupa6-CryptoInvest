@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\Source\\Repos\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj": {}
+    "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\Source\\Repos\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj": {
+    "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
         "projectName": "CryptoInvest",
-        "projectPath": "C:\\Users\\andre\\Source\\Repos\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\Source\\Repos\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\CryptoInvest.fsproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\ooad-2020-2021\\Grupa6-CryptoInvest\\CryptoInvest\\CryptoInvest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
