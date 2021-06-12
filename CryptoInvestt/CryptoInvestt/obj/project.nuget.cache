@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CAao8kAob+Ns01R5g7vSJDwq8CFC3cGkVyZrO0WFO+KS1vMkyFk8FgY8mAKhTkcWEzcfz1279Sbq6LRxfw225g==",
+  "dgSpecHash": "gOFmc83YhGFlAoddc3+Wq5TAN36THpOCN0I7laqt3BRrOgW1/R0yiMyn6UOqwNfLYHKgnieanpusi9WZsySh/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amila Rovcanin\\Desktop\\najnoviji\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+  "projectFilePath": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.15\\microsoft.aspnetcore.cryptography.internal.3.1.15.nupkg.sha512",
     "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.15\\microsoft.aspnetcore.cryptography.keyderivation.3.1.15.nupkg.sha512",
