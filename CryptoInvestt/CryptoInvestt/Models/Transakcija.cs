@@ -24,5 +24,9 @@ namespace CryptoInvestt.Models
         public int portfolioID;
         [Required]
         public int valutaID;
+
+        [Required]
+        public int tipTransakcije { get; set; }
+        public double limit;
     }
 }

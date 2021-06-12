@@ -19,5 +19,7 @@ namespace CryptoInvestt.Data
         public DbSet<CryptoInvestt.Models.Valuta> Valuta { get; set; }
         public DbSet<CryptoInvestt.Models.Transakcija> Transakcija { get; set; }
         public DbSet<CryptoInvestt.Models.Kurs> Kurs { get; set; }
+        public DbSet<CryptoInvestt.Models.Iznos> Iznos { get; set; }
+        public DbSet<CryptoInvestt.Models.Novost> Novost { get; set; }
     }
 }

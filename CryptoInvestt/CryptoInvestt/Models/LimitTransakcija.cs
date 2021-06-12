@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CryptoInvestt.Models
 {
-    public class LimitTransakcija
+    public class LimitTransakcija : Transakcija
     {
         [Required]
         public double Limit { get; set; }

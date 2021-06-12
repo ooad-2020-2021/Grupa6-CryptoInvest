@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CryptoInvestt.Data;
+using CryptoInvestt.Models;
 
-namespace CryptoInvestt.Models
+namespace CryptoInvestt.Controllers
 {
     public class PortfolioController : Controller
     {

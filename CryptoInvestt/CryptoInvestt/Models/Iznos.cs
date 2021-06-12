@@ -10,8 +10,8 @@ namespace CryptoInvestt.Models
     {
         [Key]
         [Required]
-        public int valutaId;
+        public int valutaId { get; set; }
         [Required]
-        public double iznos { get; set; }
+        public string kolicina { get; set; }
     }
 }
