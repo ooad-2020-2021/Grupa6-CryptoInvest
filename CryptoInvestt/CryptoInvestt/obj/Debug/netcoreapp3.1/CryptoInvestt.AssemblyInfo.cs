@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-CryptoInvestt-44ECFF03-31ED-46E6-97F1-FB112D2E81D9")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoInvestt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
