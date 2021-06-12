@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+
+        .square {
+            border-radius: 4px;
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            position: fixed;
+        }
+
+        .a {
+            background-color: white;
+            margin-bottom: 25px;
+            border: 3px solid black;
+            left: 29%;
+            top: 30%;
+        }
+
+        .b {
+            background-color: white;
+            margin-bottom: 25px;
+            border: 3px solid black;
+            top: 30%;
+            left: 43%
+        }
+
+        .c {
+            background-color: white;
+            margin-bottom: 25px;
+            border: 3px solid black;
+            top: 30%;
+            right: 30%
+        }
+
+        .d {
+            background-color: white;
+            margin-bottom: 25px;
+            border: 3px solid black;
+            top: 59%;
+            left: 29%
+        }
+
+        .e {
+            background-color: white;
+            margin-bottom: 25px;
+            border: 3px solid black;
+            top: 59%;
+            left: 43%
+        }
+
+        .f {
+            background-color: white;
+            margin-bottom: 25px;
+            border: 3px solid black;
+            top: 59%;
+            right: 30%;
+        }
+
+        .txt {
+            text-align: match-parent;
+        }
+
+        .navbar-brand {
+            color: blue;
+            font-weight: bold;
+            top: 5%;
+            left: 28%;
+            position: fixed;
+        }
+
+        .figure-img {
+            left: 5%;
+            top: 10%;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - CryptoInvest</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+
+                <div class="figure-img">
+                    <img src="https://user-images.githubusercontent.com/73108515/112739416-8bd67c80-8f74-11eb-8c51-1f5b1b16baed.png" width="30%" height="30%" alt="">
+                </div>
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CryptoInvest</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="square a">
+        <div class="txt">Kupoprodaja</div>
+        <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="200" height="200" alt="">
+    </div>
+
+    <div class="square b">
+        <div class="txt">Profil</div>
+        <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="200" height="200" alt="">
+    </div>
+
+    <div class="square c">
+        <div class="txt">Digitalni novčanik</div>
+        <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="200" height="200" alt="">
+    </div>
+
+    <div class="square d">
+        <div class="txt">Novosti</div>
+        <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="200" height="200" alt="">
+    </div>
+
+    <div class="square e">
+        <div class="txt">Premium</div>
+        <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="200" height="200" alt="">
+    </div>
+
+    <div class="square f">
+        <div class="txt">Postavke</div>
+        <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="200" height="200" alt="">
+    </div>
+
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - CryptoInvest - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
