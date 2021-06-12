@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace CryptoInvestt.Models
 {
-    public class LimitTransakcija
+    public class Iznos
     {
+        [Key]
         [Required]
-        public double Limit { get; set; }
+        public int valutaId;
         [Required]
-        public int tipLimitTransakcije;
+        public double iznos { get; set; }
     }
 }
