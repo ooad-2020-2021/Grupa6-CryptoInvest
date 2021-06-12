@@ -8847,11 +8847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amila Rovcanin\\source\\repos\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+      "projectUniqueName": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
       "projectName": "CryptoInvestt",
-      "projectPath": "C:\\Users\\Amila Rovcanin\\source\\repos\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+      "projectPath": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
       "packagesPath": "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amila Rovcanin\\source\\repos\\CryptoInvestt\\CryptoInvestt\\obj\\",
+      "outputPath": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amila Rovcanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
