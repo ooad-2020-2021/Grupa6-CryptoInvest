@@ -386,3 +386,8 @@ C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netco
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Valuta\Details.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Valuta\Edit.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Valuta\Index.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Iznos\Create.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Iznos\Delete.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Iznos\Details.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Iznos\Edit.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Iznos\Index.cshtml.g.cs

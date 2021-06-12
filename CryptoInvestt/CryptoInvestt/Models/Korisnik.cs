@@ -24,5 +24,13 @@ namespace CryptoInvestt.Models
         [Required]
         public string email { get; set; }
 
+        public Korisnik(int ID, string username, string password, string email)
+        {
+            this.ID = ID;
+            this.username = username;
+            this.password = password;
+            this.email = email;
+        }
+
     }
 }
