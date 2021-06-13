@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CryptoInvestt.Data;
+using CryptoInvestt.Models;
 
-namespace CryptoInvestt.Models
+namespace CryptoInvestt.Controllers
 {
     public class NovcanikController : Controller
     {
@@ -53,7 +54,7 @@ namespace CryptoInvestt.Models
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,UkupniIznos")] Novcanik novcanik)
+        public async Task<IActionResult> Create([Bind("ID,iznosi,UkupniIznos")] Novcanik novcanik)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +86,7 @@ namespace CryptoInvestt.Models
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,UkupniIznos")] Novcanik novcanik)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,iznosi,UkupniIznos")] Novcanik novcanik)
         {
             if (id != novcanik.ID)
             {
