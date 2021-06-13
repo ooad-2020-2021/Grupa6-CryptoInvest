@@ -1,8 +1,132 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Pocetna";
 }
 
+<style>
+
+    .square {
+        border-radius: 4px;
+        height: 200px;
+        width: 250px;
+        text-align: center;
+        position: fixed;
+    }
+
+
+    .a {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        left: 29%;
+        top: 30%;
+    }
+
+
+
+    .b {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        top: 30%;
+        left: 43%;
+        
+    }
+
+   
+
+        .c {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        top: 30%;
+        right: 30%
+    }
+
+    .d {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        top: 59%;
+        left: 29%
+    }
+
+    .e {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        top: 59%;
+        left: 43%
+    }
+
+    .f {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        top: 59%;
+        right: 30%;
+    }
+
+    .navbar-brand {
+        color: blue;
+        font-weight: bold;
+        top: 5%;
+        left: 28%;
+        position: fixed;
+    }
+
+    .figure-img {
+      position: center;
+    }
+
+</style>
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Dobrodošli</h1>
+    
 </div>
+
+<div class="square a">
+<div class="button1">
+    <a asp-area="" asp-controller="Transakcija" asp-action="Index" class="btn btn-1">Kupoprodaja</a> 
+    <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="150" height="150" alt="">
+</div>
+</div>
+
+
+<div class="square b">
+<div class="button2">
+    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Profil</a>
+    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
+    </div>
+</div>
+</div>
+
+
+<div class="square c"> 
+<div class="button3">
+    <a asp-area="" asp-controller="Novcanik" asp-action="Index" class="btn btn-1">Digitalni novcanik</a>
+    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="150" height="150" alt="">
+</div>
+</div>
+
+<div class="square d">
+<div class="button4">
+    <a asp-area="" asp-controller="Novosti" asp-action="Index" class="btn btn-1">Novosti</a>
+    <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="150" height="150" alt="">
+</div>
+</div>
+
+<div class ="square e">
+<div class="button5">
+    <a asp-area="" asp-controller="Portfolio" asp-action="Index" class="btn btn-1">Portfolio</a>
+    <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="150" height="150" alt="">
+</div>
+</div>
+
+<div class="square f">
+<div class="button6">
+    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Postavke</a>
+    <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="150" height="150" alt="">
+</div>
+</div>
+

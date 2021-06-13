@@ -1,0 +1,96 @@
+#kurs1{
+	position: absolute;
+	right: 100px;
+	top: 150px;
+}
+
+#kurs2{
+	position: absolute;
+	right: 100px;
+	top: 450px;
+}
+
+#kurs3{
+	position: absolute;
+	right: 100px;
+	top: 750px;
+}
+
+#kurs4{
+	position: absolute;
+	right: 100px;
+	top: 1050px;
+}
+
+p1{
+	position: absolute;
+	left: 400px;
+	top: 150px;
+}
+
+p2{
+	position: absolute;
+	left: 400px;
+	top: 450px;
+}
+
+p3{
+	position: absolute;
+	left: 400px;
+	top: 750px;
+}
+
+p4{
+	position: absolute;
+	left: 400px;
+	top: 1050px;
+}
+
+p5{
+	position: absolute;
+	left: 800px;
+	top: 150px;
+}
+
+p6{
+	position: absolute;
+	left: 800px;
+	top: 450px;
+}
+
+p7{
+	position: absolute;
+	left: 800px;
+	top: 750px;
+}
+
+p8{
+	position: absolute;
+	left: 800px;
+	top: 1050px;
+}
+
+.prva{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+.druga{
+	position: absolute;
+	left: 100px;
+	top: 450px;
+}
+
+.treca{
+	position: absolute;
+	left: 100px;
+	top: 750px;
+}
+
+.cetvrta{
+	position: absolute;
+	left: 100px;
+	top: 1050px;
+}
+
