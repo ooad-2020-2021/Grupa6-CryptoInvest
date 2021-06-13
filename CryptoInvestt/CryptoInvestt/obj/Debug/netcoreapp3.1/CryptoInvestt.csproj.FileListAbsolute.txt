@@ -340,11 +340,6 @@ C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netco
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Create.cshtml.g.cs
-C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Delete.cshtml.g.cs
-C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Details.cshtml.g.cs
-C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Edit.cshtml.g.cs
-C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Index.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Kurs\Create.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Kurs\Delete.cshtml.g.cs
 C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Kurs\Details.cshtml.g.cs
@@ -799,3 +794,8 @@ C:\Users\Amila Rovcanin\Desktop\Grupa 6-CryptoInvest\CryptoInvestt\CryptoInvestt
 C:\Users\Amila Rovcanin\Desktop\Grupa 6-CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\CryptoInvestt.dll
 C:\Users\Amila Rovcanin\Desktop\Grupa 6-CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\CryptoInvestt.pdb
 C:\Users\Amila Rovcanin\Desktop\Grupa 6-CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\CryptoInvestt.genruntimeconfig.cache
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Create.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Delete.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Details.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Edit.cshtml.g.cs
+C:\Users\User\Documents\CryptoInvest\CryptoInvestt\CryptoInvestt\obj\Debug\netcoreapp3.1\Razor\Views\Korisnik\Index.cshtml.g.cs

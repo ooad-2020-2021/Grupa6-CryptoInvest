@@ -8842,19 +8842,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
       "projectName": "CryptoInvestt",
-      "projectPath": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
-      "packagesPath": "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Amila Rovcanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8923,7 +8923,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
-using System;
 
-namespace CryptoInvestt.Data.Migrations
+namespace CryptoInvestt.Migrations
 {
-    public partial class CreateIdentitySchema : Migration
+    public partial class Migracija : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,11 +47,122 @@ namespace CryptoInvestt.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Iznos",
+                columns: table => new
+                {
+                    valutaId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    kolicina = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Iznos", x => x.valutaId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Korisnik",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    username = table.Column<string>(nullable: false),
+                    password = table.Column<string>(nullable: false),
+                    email = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Korisnik", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Kurs",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Naslov = table.Column<string>(nullable: false),
+                    detaljno = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Kurs", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Novcanik",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    iznosi = table.Column<string>(nullable: false),
+                    UkupniIznos = table.Column<double>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Novcanik", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Novost",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Naslov = table.Column<string>(nullable: false),
+                    Text = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Novost", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Portfolio",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Portfolio", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Transakcija",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    KolicinaValute = table.Column<double>(nullable: false),
+                    Cijena = table.Column<double>(nullable: false),
+                    tipTransakcije = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Transakcija", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Valuta",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Naziv = table.Column<string>(nullable: false),
+                    TrenutnaVrijednost = table.Column<double>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Valuta", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     RoleId = table.Column<string>(nullable: false),
                     ClaimType = table.Column<string>(nullable: true),
                     ClaimValue = table.Column<string>(nullable: true)
@@ -73,7 +183,7 @@ namespace CryptoInvestt.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     UserId = table.Column<string>(nullable: false),
                     ClaimType = table.Column<string>(nullable: true),
                     ClaimValue = table.Column<string>(nullable: true)
@@ -209,6 +319,30 @@ namespace CryptoInvestt.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Iznos");
+
+            migrationBuilder.DropTable(
+                name: "Korisnik");
+
+            migrationBuilder.DropTable(
+                name: "Kurs");
+
+            migrationBuilder.DropTable(
+                name: "Novcanik");
+
+            migrationBuilder.DropTable(
+                name: "Novost");
+
+            migrationBuilder.DropTable(
+                name: "Portfolio");
+
+            migrationBuilder.DropTable(
+                name: "Transakcija");
+
+            migrationBuilder.DropTable(
+                name: "Valuta");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
