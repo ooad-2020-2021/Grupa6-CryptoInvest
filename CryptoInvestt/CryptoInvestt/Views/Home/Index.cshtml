@@ -7,10 +7,11 @@
     .square {
         border-radius: 4px;
         height: 200px;
-        width: 200px;
+        width: 250px;
         text-align: center;
         position: fixed;
     }
+
 
     .a {
         background-color: white;
@@ -20,15 +21,20 @@
         top: 30%;
     }
 
+
+
     .b {
         background-color: white;
         margin-bottom: 25px;
         border: 3px solid black;
         top: 30%;
-        left: 44%
+        left: 43%;
+        
     }
 
-    .c {
+   
+
+        .c {
         background-color: white;
         margin-bottom: 25px;
         border: 3px solid black;
@@ -49,7 +55,7 @@
         margin-bottom: 25px;
         border: 3px solid black;
         top: 59%;
-        left: 44%
+        left: 43%
     }
 
     .f {
@@ -58,10 +64,6 @@
         border: 3px solid black;
         top: 59%;
         right: 30%;
-    }
-
-    .txt {
-        text-align: match-parent;
     }
 
     .navbar-brand {
@@ -73,9 +75,9 @@
     }
 
     .figure-img {
-        left: 5%;
-        top: 10%;
+      position: center;
     }
+
 </style>
 
 <div class="text-center">
@@ -84,33 +86,47 @@
 </div>
 
 <div class="square a">
-    <div class="txt">Kupoprodaja</div>
+<div class="button1">
+    <a asp-area="" asp-controller="Transakcija" asp-action="Index" class="btn btn-1">Kupoprodaja</a> 
     <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="150" height="150" alt="">
 </div>
-
-<div class="square b">
-    <div class="txt">Profil</div>
-    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
 </div>
 
-<div class="square c">
-    <div class="txt">Digitalni novčanik</div>
+
+<div class="square b">
+<div class="button2">
+    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Profil</a>
+    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
+    </div>
+</div>
+</div>
+
+
+<div class="square c"> 
+<div class="button3">
+    <a asp-area="" asp-controller="Novcanik" asp-action="Index" class="btn btn-1">Digitalni novcanik</a>
     <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="150" height="150" alt="">
+</div>
 </div>
 
 <div class="square d">
-    <div class="txt">Novosti</div>
+<div class="button4">
+    <a asp-area="" asp-controller="Novosti" asp-action="Index" class="btn btn-1">Novosti</a>
     <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="150" height="150" alt="">
 </div>
+</div>
 
-<div class="square e">
-    <div class="txt">Premium</div>
+<div class ="square e">
+<div class="button5">
+    <a asp-area="" asp-controller="Portfolio" asp-action="Index" class="btn btn-1">Portfolio</a>
     <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="150" height="150" alt="">
+</div>
 </div>
 
 <div class="square f">
-    <div class="txt">Postavke</div>
+<div class="button6">
+    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Postavke</a>
     <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="150" height="150" alt="">
 </div>
-
+</div>
 
