@@ -8847,11 +8847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+      "projectUniqueName": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
       "projectName": "CryptoInvestt",
-      "projectPath": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+      "projectPath": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
       "packagesPath": "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\",
+      "outputPath": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amila Rovcanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8926,13 +8926,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

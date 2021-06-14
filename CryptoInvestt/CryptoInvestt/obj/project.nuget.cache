@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j9mvDDloScfmp7CFe4rBRRi34NxtF2fMzSKcHGrSEtGxXrR3kspSNu7T0B1UO6cFRMvN0gZ31kKUGFPj4YLBLQ==",
+  "dgSpecHash": "gOFmc83YhGFlAoddc3+Wq5TAN36THpOCN0I7laqt3BRrOgW1/R0yiMyn6UOqwNfLYHKgnieanpusi9WZsySh/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
+  "projectFilePath": "C:\\Users\\Amila Rovcanin\\Desktop\\Grupa 6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\CryptoInvestt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.15\\microsoft.aspnetcore.cryptography.internal.3.1.15.nupkg.sha512",
     "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.15\\microsoft.aspnetcore.cryptography.keyderivation.3.1.15.nupkg.sha512",
@@ -173,12 +173,5 @@
     "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Amila Rovcanin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Amila Rovcanin\\Documents\\GitHub\\Grupa6-CryptoInvest\\CryptoInvestt\\CryptoInvestt\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

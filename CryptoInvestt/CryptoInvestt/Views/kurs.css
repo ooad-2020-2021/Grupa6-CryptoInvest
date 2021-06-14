@@ -1,0 +1,68 @@
+#prvi{
+	position: absolute;
+	top: 80px;
+	left: 50px;
+}
+
+p1{
+	position: absolute;
+	top: 80px;
+	left: 400px;
+}
+
+#drugi{
+	position: absolute;
+	top: 480px;
+	left: 50px;
+}
+p2{
+	position: absolute;
+	top: 480px;
+	left: 400px;
+}
+
+#treci{
+	position: absolute;
+	top: 880px;
+	left: 50px;
+}
+p3{	position: absolute;
+	top: 880px;
+	left: 400px;
+}
+
+#cetvrti{
+	position: absolute;
+	top: 80px;
+	left: 600px;
+}
+
+p4{
+	position: absolute;
+	top: 80px;
+	left: 950px;
+}
+
+#peti{
+	position: absolute;
+	top: 480px;
+	left: 600px;
+}
+
+p5{
+	position: absolute;
+	top: 480px;
+	left: 950px;
+}
+
+#sesti{
+	position: absolute;
+	top: 880px;
+	left: 600px;
+}
+
+p6{
+	position: absolute;
+	top: 880px;
+	left: 950px;
+}

@@ -21,5 +21,19 @@ namespace CryptoInvestt.Data
         public DbSet<CryptoInvestt.Models.Kurs> Kurs { get; set; }
         public DbSet<CryptoInvestt.Models.Iznos> Iznos { get; set; }
         public DbSet<CryptoInvestt.Models.Novost> Novost { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Korisnik>().ToTable("Korisnik");
+            modelBuilder.Entity<Iznos>().ToTable("Iznos");
+            modelBuilder.Entity<Kurs>().ToTable("Kurs");
+            modelBuilder.Entity<Novcanik>().ToTable("Novcanik");
+            modelBuilder.Entity<Novost>().ToTable("Novost");
+            modelBuilder.Entity<Portfolio>().ToTable("Portfolio");
+            modelBuilder.Entity<Transakcija>().ToTable("Transakcija");
+            modelBuilder.Entity<Valuta>().ToTable("Valuta");
+        }
+
     }
 }
