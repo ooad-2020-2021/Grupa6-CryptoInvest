@@ -3,162 +3,145 @@
 }
 
 <style>
-
-    .square {
+    .button {
         border-radius: 4px;
+        text-align: center;
+        position: fixed;
+    }
+
+    .button1 {
+        background-color: white;
+        border: 3px solid black;
+        text-align: center;
+        position: fixed;
+        left: 600px;
+        top: 300px;
         height: 200px;
-        width: 250px;
+        width: 200px;
+    }
+
+    .button2 {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
         text-align: center;
         position: fixed;
+        top: 300px;
+        left: 870px;
+        height: 200px;
+        width: 200px;
     }
 
-
-    .a {
+    .button3 {
         background-color: white;
         margin-bottom: 25px;
         border: 3px solid black;
-        left: 29%;
-        top: 30%;
         text-align: center;
-        margin-right: 2%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-
-
-
-    .b {
-        background-color: white;
-        margin-bottom: 25px;
-        border: 3px solid black;
-        top: 30%;
-        left: 42%;
-        text-align: center;
-     
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-    .c {
-        background-color: white;
-        margin-bottom: 25px;
-        border: 3px solid black;
-        top: 30%;
-        right: 30%;
-        text-align: center;
-        margin-right: 2%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .d {
-        background-color: white;
-        margin-bottom: 25px;
-        border: 3px solid black;
-        top: 59%;
-        left: 29%;
-        text-align: center;
-        margin-right: 2%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .e {
-        background-color: white;
-        margin-bottom: 25px;
-        border: 3px solid black;
-        top: 59%;
-        left: 42%;
-        text-align: center;
-      
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .f {
-        background-color: white;
-        margin-bottom: 25px;
-        border: 3px solid black;
-        top: 59%;
-        right: 30%;
-        text-align: center;
-        margin-right: 2%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navbar-brand {
-        color: blue;
-        font-weight: bold;
-        top: 5%;
-        left: 28%;
         position: fixed;
+        top: 300px;
+        left: 1140px;
+        height: 200px;
+        width: 200px;
     }
 
-    .figure-img {
-      position: center;
+    .button4 {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        text-align: center;
+        position: fixed;
+        top: 59%;
+        left: 600px;
+        height: 200px;
+        width: 200px;
     }
 
+    .button5 {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        text-align: center;
+        position: fixed;
+        top: 59%;
+        left: 870px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .button6 {
+        background-color: white;
+        margin-bottom: 25px;
+        border: 3px solid black;
+        text-align: center;
+        position: fixed;
+        top: 59%;
+        left: 1140px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .button7 {
+        background-color: lightsteelblue;
+        border: 1px solid black;
+        text-align: center;
+        position: fixed;
+        top: 50px;
+        left: 1600px;
+        height: 50px;
+        width: 200px;
+    }
 </style>
 
-<div class="text-center">
-    <h1 class="display-4">Dobrodošli</h1>
-    
-</div>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Dobrodošli</h1>
 
-<div class="square a">
-<div class="button1">
-    <a asp-area="" asp-controller="Kupoprodaja" asp-action="Index" class="btn btn-1">Kupoprodaja</a> 
-    <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="150" height="150" alt="">
-</div>
-</div>
-
-
-<div class="square b">
-<div class="button2">
-    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Profil</a>
-    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
     </div>
-</div>
-</div>
 
 
-<div class="square c"> 
-<div class="button3">
-    <a asp-area="" asp-controller="Novcanik" asp-action="Index" class="btn btn-1">Digitalni novcanik</a>
-    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="150" height="150" alt="">
-</div>
-</div>
+    <div class="button1">
+        <a asp-area="" asp-controller="Valuta" asp-action="Index" class="btn btn-1">Kupoprodaja</a>
+        <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="150" height="150" alt="">
+    </div>
 
-<div class="square d">
-<div class="button4">
-    <a asp-area="" asp-controller="Novosti" asp-action="Index" class="btn btn-1">Novosti</a>
-    <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="150" height="150" alt="">
-</div>
-</div>
 
-<div class ="square e">
-<div class="button5">
-    <a asp-area="" asp-controller="Portfolio" asp-action="Index" class="btn btn-1">Portfolio</a>
-    <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="150" height="150" alt="">
-</div>
-</div>
 
-<div class="square f">
-<div class="button6">
-    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Postavke</a>
-    <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="150" height="150" alt="">
-</div>
-</div>
+    <div class="button2">
+        <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Profil</a>
+        <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
+    </div>
 
+
+
+
+    <div class="button3">
+        <a asp-area="" asp-controller="Novcanik" asp-action="Index" class="btn btn-1">Digitalni novcanik</a>
+        <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="150" height="150" alt="">
+    </div>
+
+
+
+    <div class="button4">
+        <a asp-area="" asp-controller="Novosti" asp-action="Index" class="btn btn-1">Novosti</a>
+        <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="150" height="150" alt="">
+    </div>
+
+
+
+    <div class="button5">
+        <a asp-area="" asp-controller="Portfolio" asp-action="Index" class="btn btn-1">Portfolio</a>
+        <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="150" height="150" alt="">
+    </div>
+
+
+
+    <div class="button6">
+        <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Postavke</a>
+        <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="150" height="150" alt="">
+    </div>
+
+
+    <div class="button7">
+        <a class="btn btn-a" asp-area="Identity" asp-page="/Account/Login">Prijava/Registracija</a>
+    </div>
+</body>
