@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using CryptoInvestt.Data;
-using CryptoInvestt.Models;
+using CryptoInvest.Data;
+using CryptoInvest.Models;
 
-namespace CryptoInvestt.Controllers
+namespace CryptoInvest.Controllers
 {
     public class PortfolioController : Controller
     {
@@ -54,7 +54,7 @@ namespace CryptoInvestt.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID")] Portfolio portfolio)
+        public async Task<IActionResult> Create([Bind("ID")] Portfolio  portfolio)
         {
             if (ModelState.IsValid)
             {

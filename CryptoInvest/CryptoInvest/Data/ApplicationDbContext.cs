@@ -3,7 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CryptoInvestt.Models;
+using CryptoInvest.Models;
+
 
 namespace CryptoInvest.Data
 {
@@ -16,14 +17,14 @@ namespace CryptoInvest.Data
 
 
 
-        public DbSet<CryptoInvestt.Models.Portfolio> Portfolio { get; set; }
-        public DbSet<CryptoInvestt.Models.Novcanik> Novcanik { get; set; }
-        public DbSet<CryptoInvestt.Models.Korisnik> Korisnik { get; set; }
-        public DbSet<CryptoInvestt.Models.Valuta> Valuta { get; set; }
-        public DbSet<CryptoInvestt.Models.Transakcija> Transakcija { get; set; }
-        public DbSet<CryptoInvestt.Models.Kurs> Kurs { get; set; }
-        public DbSet<CryptoInvestt.Models.Iznos> Iznos { get; set; }
-        public DbSet<CryptoInvestt.Models.Novost> Novost { get; set; }
+        public DbSet<CryptoInvest.Models.Portfolio> Portfolio { get; set; }
+        public DbSet<CryptoInvest.Models.Novcanik> Novcanik { get; set; }
+        public DbSet<CryptoInvest.Models.Korisnik> Korisnik { get; set; }
+        public DbSet<CryptoInvest.Models.Valuta> Valuta { get; set; }
+        public DbSet<CryptoInvest.Models.Transakcija> Transakcija { get; set; }
+        public DbSet<CryptoInvest.Models.Kurs> Kurs { get; set; }
+        public DbSet<CryptoInvest.Models.Iznos> Iznos { get; set; }
+        public DbSet<CryptoInvest.Models.Novost> Novost { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

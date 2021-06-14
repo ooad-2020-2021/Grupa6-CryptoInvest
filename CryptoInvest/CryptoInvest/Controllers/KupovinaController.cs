@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
-using CryptoInvestt.Models;
+using CryptoInvest.Models;
 using CryptoInvest.Data;
 
-namespace CryptoInvestt.Controllers
+namespace CryptoInvest.Controllers
 {
     public class KupovinaController : Controller
     {
