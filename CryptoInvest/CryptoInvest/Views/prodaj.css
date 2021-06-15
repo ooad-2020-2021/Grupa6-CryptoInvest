@@ -1,0 +1,135 @@
+#kupi{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #87CEFA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#limit{
+	position: absolute;
+	top: 20px;
+	left: 80px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #87CEFA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#prodaj{
+	position: absolute;
+	top: 20px;
+	left: 240px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #87CEFA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#stop{
+	position: absolute;
+	top: 20px;
+	left: 320px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #87CEFA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#kupovina{
+	position: absolute;
+	top: 500px;
+	left: 610px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #87CEFA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#profit{
+	position: absolute;
+	top: 20px;
+	left: 420px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #87CEFA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.kupii{
+	position: absolute;
+	top: 90px;
+	left: 500px;
+}
+
+.eurv{
+	position: absolute;
+	top: 270px;
+	left: 520px;
+}
+
+.btcv{
+	position: absolute;
+	top: 350px;
+	left: 520px;
+}
+
+.donjaslika{
+	position: absolute;
+	top: 600px;
+	left: 530px;
+}
+
+#prvi{
+	position: absolute;
+	top: 270px;
+	left: 670px;
+	border: none;
+    background: transparent;
+	background-color: #87CEFA;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+#drugi{
+	position: absolute;
+	top: 350px;
+	left: 670px;
+	border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+	background-color: #87CEFA;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}

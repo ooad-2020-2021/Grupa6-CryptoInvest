@@ -1,0 +1,178 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Prijava";
+}
+
+
+
+
+<center><h1>@ViewData["Title"]</h1></center>
+
+<div class="wrapper">
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form id="account" method="post">
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group a">
+                    <label asp-for="Input.Email"></label>
+                    <input asp-for="Input.Email" class="form-control" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group b">
+                    <label asp-for="Input.Password"></label>
+                    <input asp-for="Input.Password" class="form-control" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-group c">
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe">
+                           <center><input asp-for="Input.RememberMe" /></center>
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                </div>
+             
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary d">Prijava</button>
+                </div>
+                <div class="form-group e">
+                    <p>
+                        <a id="forgot-password" asp-page="./ForgotPassword">Zaboravili ste pasvord?</a>
+                    </p>
+                    <p>
+                     <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Kreiraj novi korisnicki racun</a>
+                    </p>
+
+                   
+             </div>
+            </form>
+           
+  
+        </section>
+    </div>
+    
+    </div>
+
+    </div>
+    
+ <!--  <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h4>Use another service to log in.</h4>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                            for details on setting up this ASP.NET application to support logging in via external services.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div>
+-->
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+
+
+
+
+    .wrapper {
+       
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+        background-color: lightblue;
+        left: 750px;
+        top: 200px;
+        position: fixed;
+        width: 400px;
+        height: 600px;
+    }
+
+        .wrapper form {
+            padding: 30px 30px 50px 30px;
+        }
+
+            .wrapper form .field {
+                height: 50px;
+                width: 100%;
+                
+                position: fixed;
+                
+            }
+    .a {
+        text-align: center;
+        width: 350px;
+        height:100px;
+        top:250px;
+        left: 772px;
+        position: fixed;
+       
+
+    }
+
+    .b {
+        text-align: center;
+        width: 350px;
+        height: 100px;
+        top: 350px;
+        left: 772px;
+        position: fixed;
+     
+    }
+    .c {
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        top: 450px;
+        left: 910px;
+        position: fixed;
+    }
+
+    .d {
+        text-align: center;
+        width: 350px;
+        height: 50px;
+        top: 620px;
+        left: 780px;
+        background-color: dodgerblue;
+        text-decoration-color: black;
+        position: fixed;
+        border: 1px solid blue;
+    }
+
+    .e {
+        position: fixed; 
+        top: 680px;
+        left: 850px;
+        text-align: center;
+    }
+
+    
+    
+</style>
