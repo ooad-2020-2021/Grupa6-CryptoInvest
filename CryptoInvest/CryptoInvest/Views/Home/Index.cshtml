@@ -80,57 +80,77 @@
         width: 200px;
     }
 
+    .k {
+        position: fixed;
+        left: 790px;
+        top: 200px;
+        background-color: aliceblue;
+
+    }
+
    
 </style>
 
-<body>
-    <div class="text-center">
-        <h1 class="display-4">Dobrodošli</h1>
-
-    </div>
-
-
-    <div class="button1">
-        <a asp-area="" asp-controller="Kupoprodaja" asp-action="Index" class="btn btn-1">Kupoprodaja</a>
-        <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="150" height="150" alt="">
-    </div>
-
-
-
-    <div class="button2">
-        <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Profil</a>
-        <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
-    </div>
-
-
-
-
-    <div class="button3">
-        <a asp-area="" asp-controller="Novcanik" asp-action="Index" class="btn btn-1">Digitalni novcanik</a>
-        <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="150" height="150" alt="">
-    </div>
-
-
-
-    <div class="button4">
-        <a asp-area="" asp-controller="Novosti" asp-action="Index" class="btn btn-1">Novosti</a>
-        <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="150" height="150" alt="">
-    </div>
-
-
-
-    <div class="button5">
-        <a asp-area="" asp-controller="Portfolio" asp-action="Index" class="btn btn-1">Portfolio</a>
-        <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="150" height="150" alt="">
-    </div>
-
-
-
-    <div class="button6">
-        <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Postavke</a>
-        <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="150" height="150" alt="">
-    </div>
-
-
+<body style="background-color:cadetblue;">
     
-</body>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div class="text-center">
+            <h1 class="display-4">Dobrodošli</h1>
+            </div>
+            <div class="figure-img k">
+                <img src="https://user-images.githubusercontent.com/73108515/112739416-8bd67c80-8f74-11eb-8c51-1f5b1b16baed.png" width="100%" height="100%" alt="">
+            </div>
+
+
+            }
+
+            @if (User.Identity.IsAuthenticated)
+            {
+
+
+
+                <div class="button1">
+                    <a asp-area="" asp-controller="Kupoprodaja" asp-action="Index" class="btn btn-1">Kupoprodaja</a>
+                    <img src="https://www.pngarea.com/pngs/39/5886824_ecommerce-png-transparent-background-handshake-icon-blue-transparent.png" width="150" height="150" alt="">
+                </div>
+
+
+
+                <div class="button2">
+                    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Profil</a>
+                    <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png" width="150" height="150" alt="">
+                </div>
+
+
+
+
+                <div class="button3">
+                    <a asp-area="" asp-controller="Novcanik" asp-action="Index" class="btn btn-1">Digitalni novcanik</a>
+                    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-wallet-png-4.png" width="150" height="150" alt="">
+                </div>
+
+
+
+                <div class="button4">
+                    <a asp-area="" asp-controller="Novosti" asp-action="Index" class="btn btn-1">Novosti</a>
+                    <img src="https://hsvha.org/wp-content/uploads/2020/06/news_logo_round2-300x300-1.png" width="150" height="150" alt="">
+                </div>
+
+
+
+                <div class="button5">
+                    <a asp-area="" asp-controller="Portfolio" asp-action="Index" class="btn btn-1">Portfolio</a>
+                    <img src="https://img.pngio.com/diamond-icon-graphic-design-template-vector-logo-symbol-graphic-diamond-logo-png-640_640.png" width="150" height="150" alt="">
+                </div>
+
+
+
+                <div class="button6">
+                    <a asp-area="" asp-controller="Korisnik" asp-action="Index" class="btn btn-1">Postavke</a>
+                    <img src="https://www.pngitem.com/pimgs/m/1-12226_transparent-android-settings-icon-png-settings-icon-blue.png" width="150" height="150" alt="">
+                </div>
+
+            }
+
+    </body>

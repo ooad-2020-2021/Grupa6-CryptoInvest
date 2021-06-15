@@ -457,3 +457,7 @@ C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug
 C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Amila Rovcanin\Desktop\Najnajnovije\CryptoInvest\CryptoInvest\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
